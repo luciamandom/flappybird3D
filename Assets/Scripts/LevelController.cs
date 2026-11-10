@@ -26,6 +26,9 @@ public class LevelController : MonoBehaviour
     }
     public void LoadNextLevel()
     {
+        ScoreBoardManager sbm = FindAnyObjectByType<ScoreBoardManager>();
+        if (sbm) sbm.SaveScore();
+
         int CurrentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene((CurrentScene+1)%SceneManager.sceneCountInBuildSettings);
     }

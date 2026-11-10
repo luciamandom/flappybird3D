@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 954186769664010582}
   - component: {fileID: 779201010862705036}
   - component: {fileID: 565761866958392607}
+  - component: {fileID: 3063641396398950420}
   m_Layer: 0
   m_Name: Droppy 1
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4669511222208369421}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -20.34, y: 8.2, z: -12.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -155,3 +156,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe1428f26178df41899a16365b1856e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dropper
+--- !u!114 &3063641396398950420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4669511222208369421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f19621021ea7d44a6697c73a76a068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionLevelChange

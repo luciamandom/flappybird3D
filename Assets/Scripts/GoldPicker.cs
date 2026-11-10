@@ -19,6 +19,7 @@ public class GoldPicker : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            Debug.Log("Moneda tocada por: " + other.name + " | tag: " + other.tag);
             ScoreBoardManager scoreBoardManager = FindAnyObjectByType<ScoreBoardManager>();
             if (scoreBoardManager) scoreBoardManager.IncreaseScore(1);
             Destroy(this.gameObject);
