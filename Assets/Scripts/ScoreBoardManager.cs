@@ -30,6 +30,6 @@ public class ScoreBoardManager : MonoBehaviour
 
     void UpdateText()
     {
-        if (scoreBoardText) scoreBoardText.text = score.ToString();
+        if (scoreBoardText) scoreBoardText.text = "PUNTUACION: " +score.ToString();
     }
 }
