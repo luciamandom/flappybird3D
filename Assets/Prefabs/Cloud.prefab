@@ -155,6 +155,7 @@ GameObject:
   - component: {fileID: 353359080878898314}
   - component: {fileID: 573362023283720531}
   - component: {fileID: 5967190375258393464}
+  - component: {fileID: 6641038486963128698}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -255,6 +256,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6641038486963128698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2866058999070402817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f19621021ea7d44a6697c73a76a068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionLevelChange
 --- !u!1 &7387712794317454240
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +280,7 @@ GameObject:
   - component: {fileID: 7014928042553592595}
   - component: {fileID: 343224905145957995}
   - component: {fileID: 2638781997143297133}
+  - component: {fileID: 7065772866122321899}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -367,6 +381,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7065772866122321899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387712794317454240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f19621021ea7d44a6697c73a76a068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionLevelChange
 --- !u!1 &7392955861476993939
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +405,7 @@ GameObject:
   - component: {fileID: 7693564119819739126}
   - component: {fileID: 8017099639126842099}
   - component: {fileID: 8478255719194346884}
+  - component: {fileID: 7124605943447854777}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -479,3 +506,15 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7124605943447854777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7392955861476993939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f19621021ea7d44a6697c73a76a068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionLevelChange

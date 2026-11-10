@@ -17,11 +17,13 @@ public class constantFloater : MonoBehaviour
     void Start()
     {
         StartPos = transform.localPosition;
+        time = 0f; //ponemos el tiempo a 0 cuando se reinicia la escena
     }
 
     // Update is called once per frame
     void Update()
     {
+        time += Time.deltaTime;
         // Queremos qu el objeto se mueva, en este caso verticalmente, modificando su transformada (por eso
         // introducimos un seno
         // solo queremos transformar la y que es la que nos da la posición en vertical. Actualizo solo un poco la
@@ -32,7 +34,8 @@ public class constantFloater : MonoBehaviour
         //final_frequency va a ser la velocidad a la que suba o baje
         //amplitude va a ser la distancia que va a recorrer mientras sube y baja
 
-        float newY = StartPos.y + Mathf.Sin(Time.time * final_frequency)* amplitude;
+        
+        float newY = StartPos.y + Mathf.Sin(time * final_frequency)* amplitude;
         
         //Una vez calculado el nuevo valor de la componente y la coloco en la transformada
         transform.localPosition = new Vector3(StartPos.x,newY, StartPos.z);

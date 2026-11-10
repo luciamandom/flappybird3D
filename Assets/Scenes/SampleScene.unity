@@ -623,7 +623,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b3db9fa71d3333641b23531061308d8b, type: 2}
+  - {fileID: 2100000, guid: 4cd600e7833b67743b5864a026c2baab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1320,6 +1320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6126244005005605207, guid: c39d5a027e50f2d4a95b92d72ff2aded, type: 3}
+      propertyPath: amplitude
+      value: 0.57
+      objectReference: {fileID: 0}
     - target: {fileID: 6276156177010142353, guid: c39d5a027e50f2d4a95b92d72ff2aded, type: 3}
       propertyPath: m_Name
       value: obstacles (4)
@@ -1836,7 +1840,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1965361249312647515, guid: 15761e7b7e59a7044a9742b6ba4fdfc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43
+      value: -58
       objectReference: {fileID: 0}
     - target: {fileID: 1965361249312647515, guid: 15761e7b7e59a7044a9742b6ba4fdfc4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1844,7 +1848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965361249312647515, guid: 15761e7b7e59a7044a9742b6ba4fdfc4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.17
+      value: 1.1699997
       objectReference: {fileID: 0}
     - target: {fileID: 1965361249312647515, guid: 15761e7b7e59a7044a9742b6ba4fdfc4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1878,10 +1882,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gate
       objectReference: {fileID: 0}
-    - target: {fileID: 8213076651006794022, guid: 15761e7b7e59a7044a9742b6ba4fdfc4, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 21ec83ee5c3b2d9458f2614ec19fbbec, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2110,6 +2110,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1148530328443502511, guid: c9c935ba8b2cf1d478386e3826a14852, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bb3e459f92b93044a8bd2880fa121a4b, type: 2}
     - target: {fileID: 1481408894305692101, guid: c9c935ba8b2cf1d478386e3826a14852, type: 3}
       propertyPath: m_Name
       value: Quad
@@ -2120,7 +2124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4452152509663474890, guid: c9c935ba8b2cf1d478386e3826a14852, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4452152509663474890, guid: c9c935ba8b2cf1d478386e3826a14852, type: 3}
       propertyPath: m_LocalPosition.z
